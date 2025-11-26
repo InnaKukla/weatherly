@@ -36,7 +36,7 @@ const Hero: React.FC<HeroProps> = ({ weatherData }) => {
                 </div>
 
                 {/* Current icon */}
-                <div className="flex flex-col sm:flex-row items-center gap-3 sm:ml-4">
+                <div className="flex flex-col sm:flex-row items-center gap-3 sm:ml-auto sm:mr-0" >
                     {/* Icon size: 72x72, margin-left 16px */}
                     <div className="flex">
                         <div className="w-[72px] h-[72px] flex items-center justify-center rounded-md bg-[#071126]/50">
