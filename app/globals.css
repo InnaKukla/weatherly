@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* globals.css */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+}
